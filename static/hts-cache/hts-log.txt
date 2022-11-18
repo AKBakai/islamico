@@ -1,0 +1,32 @@
+HTTrack3.49-2+libhtsjava.so.2 launched on Tue, 01 Nov 2022 10:03:03 at https://iman.uz/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://iman.uz/ -O "/home/askar/Иман" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:04:12	Error: 	"Forbidden" (403) at link https://ws.tildacdn.com/ (from https://iman.uz/)
+10:05:21	Error: 	"Not Found" (404) at link https://iman.uz/lib/tildaicon/ (from https://iman.uz/)
+10:05:21	Error: 	"Not Found" (404) at link https://iman.uz/GET (from https://iman.uz/)
+10:05:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.tildacdn.com/js/jquery-1.10.2.min.js
+10:05:40	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.tildacdn.com/js/tilda-scripts-3.0.min.js
+10:05:41	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.tildacdn.com/js/tilda-animation-1.0.min.js
+10:05:42	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.tildacdn.com/js/tilda-menusub-1.0.min.js
+10:05:43	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.tildacdn.com/js/tilda-menu-1.0.min.js
+10:05:44	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.tildacdn.com/js/tilda-zero-1.0.min.js
+10:05:45	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.tildacdn.com/js/hammer.min.js
+10:05:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.tildacdn.com/js/tilda-slds-1.4.min.js
+10:05:46	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.tildacdn.com/js/tilda-events-1.0.min.js
+10:05:47	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.tildacdn.com/js/tilda-animation-sbs-1.0.min.js
+10:06:17	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://stat.tildacdn.com/js/tilda-fallback-1.0.min.js
+10:07:03	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.tildacdn.com/js/ya-share.js
+10:07:13	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.tildacdn.com/js/tilda-cover-1.0.min.js
+10:08:29	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://iman.uz/)
+10:11:15	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.tildacdn.com/js/tilda-polyfill-1.0.min.js
+10:11:16	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://static.tildacdn.com/js/tilda-zero-1.1.min.js
+10:11:17	Warning: 	HTML file (36449 bytes) retransferred due to lack of cache: https://iman.uz/buka
+10:11:19	Warning: 	HTML file (27950 bytes) retransferred due to lack of cache: https://iman.uz/oferta
+
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 17 seconds : 160 links scanned, 186 files written (15238009 bytes overall) [8063515 bytes received at 16224 bytes/sec], 1906335 bytes transferred using HTTP compression in 76 files, ratio 26%, 4.7 requests per connection
+(4 errors, 17 warnings, 0 messages)
