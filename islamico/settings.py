@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'ckeditor',
 
     'home',
-    'services',
     'sharia_board',
 ]
 

@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('title', models.CharField(max_length=255)),
                 ('text', ckeditor.fields.RichTextField()),
-                ('image', models.ImageField(upload_to='services/%Y/%m/%d')),
+                ('image', models.ImageField(upload_to='home/%Y/%m/%d')),
             ],
             options={
                 'verbose_name': 'Услуга',
